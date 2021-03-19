@@ -3,9 +3,13 @@ USER END POINTS
 --------------------------------------------------
 -- Get a list of users - http://localhost:5000/ --
 
+GET request
+
 Provides a list of all active users in the app
 
 ----- Create a new user - http://localhost:5000/createUser -----
+
+POST request
 
 MUST provide req.body.username. This will be the new users username.
 
@@ -21,6 +25,7 @@ TWEET END POINTS
 GET request
 
 MUST provide a QUERY PARAMETER of the user you want tweets for
+
 example - ?tweeter=username
 
 
@@ -29,6 +34,7 @@ example - ?tweeter=username
 PUT request
 
 MUST provide a QUERY PARAMETER for the person sending the tweet
+
 example - ?tweeter=username
 
 MUST provde a req.body.tweet containing the users tweet
@@ -45,6 +51,7 @@ FOLLOW END POINTS
 PUT request
 
 MUST provide a QUERY PARAMETER of the person who will be followed or unfollowed
+
 example - ?toBeFollowed=Viggo
 
 MUST provide req.body.follower of the person attempting to follow or unfollow the user
@@ -57,6 +64,7 @@ The end-point will first check to see if they user is already following. If so, 
 GET request 
 
 MUST provide a QUERY PARAMETER of the person you want a follower list for
+
 example - ?username=Viggo
 
 --------------------------------------------------
