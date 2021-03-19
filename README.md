@@ -1,5 +1,6 @@
 --------------------------------------------------
 USER END POINTS 
+--------------------------------------------------
 ----- Get a list of users - http://localhost:5000/ -----
 
 Provides a list of all active users in the app
