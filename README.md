@@ -7,7 +7,7 @@ Provides a list of all active users in the app
 
 ----- Create a new user - http://localhost:5000/createUser -----
 
-must provide req.body.username. This will be the new users username.
+MUST provide req.body.username. This will be the new users username.
 
 --------------------------------------------------
 
