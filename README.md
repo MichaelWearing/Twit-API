@@ -6,6 +6,7 @@ Provides a list of all active users in the app
 ----- Create a new user - http://localhost:5000/createUser -----
 
 must provide req.body.username. This will be the new users username.
+
 --------------------------------------------------
 
 
@@ -27,6 +28,7 @@ MUST provide a QUERY PARAMETER for the person sending the tweet
 example - ?tweeter=username
 
 MUST provde a req.body.tweet containing the users tweet
+
 --------------------------------------------------
 
 
@@ -50,4 +52,5 @@ GET request
 
 MUST provide a QUERY PARAMETER of the person you want a follower list for
 example - ?username=Viggo
+
 --------------------------------------------------
