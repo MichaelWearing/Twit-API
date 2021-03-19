@@ -1,3 +1,4 @@
+--------------------------------------------------
 ---------- USER END POINTS ----------
 ----- Get a list of users - http://localhost:5000/ -----
 
@@ -11,6 +12,7 @@ must provide req.body.username. This will be the new users username.
 
 
 
+--------------------------------------------------
 ---------- TWEET END POINTS ----------
 ----- Get a list of a users tweets - http://localhost:5000/tweet?tweeter=Viggo -----
 
@@ -33,6 +35,7 @@ MUST provde a req.body.tweet containing the users tweet
 
 
 
+--------------------------------------------------
 ---------- FOLLOW END POINTS ----------
 ----- Follow or unfollow a user - http://localhost:5000/follow?toBeFollowed=Viggo -----
 
