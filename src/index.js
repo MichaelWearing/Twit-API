@@ -4,6 +4,8 @@ const cors = require("cors");
 const http = require("http");
 const morgan = require('morgan')
 
+const ENDPOINT = "https://mikey-twit-api.herokuapp.com/";
+
 const app = express();
 const server = http.createServer(app);
 
@@ -14,8 +16,8 @@ app.use(morgan('tiny'));
 
 app.use(routes);
 
-server.listen(5000, () => {
-    console.log(`Listening on port 5000`)
+server.listen(ENDPOINT, () => {
+    console.log(`Listening on port ${ENDPOINT}`)
 })
 
 module.exports = app;
